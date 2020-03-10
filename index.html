@@ -5,18 +5,28 @@
     <title>Site simples</title>
     <link rel="stylesheet" href="main.css">
   </head>
-  <body>
+  <body background="rusti.jpg">
+    
+    <h1>Insira seus dados</h1><br>
 
+    <form method="POST" action="dados.html">
 
-    <h1>Site teste</h1>
+      Nome
+      <br>
+      <br>
+      <input type="text" name="nome" placeholder="Seu nome aqui">
+      <br>
+      <br>
+      Idade
+      <br><br>
+      <input type="number" name="idade" placeholder="Apenas números">
+      <br><br>
+      <button type="submit">Enviar</button>
+
+    </form>
+
     <p id="date"></p>
-    <ul>
-      <li class="list">Tópico 1</li>
-      <li class="list">Tópico 2</li>
-      <li>JavaScript teste</li>
-    </ul>
     <script src="app.js"></script>
-    <noscript>Habilite JS para visualizar o site completo.</noscript>
 
   </body>
 </html>
